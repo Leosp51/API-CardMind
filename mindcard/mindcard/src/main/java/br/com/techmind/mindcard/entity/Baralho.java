@@ -22,5 +22,8 @@ public class Baralho {
     private Usuario usuario;
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "ID_BARALHO")
-    private List<CartaTexto> cartaTextos;
+    private List<CartaTexto> cartasTextos;
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "ID_BARALHO")
+    private List<CartaPergunta> cartasPerguntas;
 }
