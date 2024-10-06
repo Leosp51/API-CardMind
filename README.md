@@ -1,2 +1,2 @@
 # API-MindCard
-Back-end do aplicativo MindCard
+Back-end do aplicativo CardMind
